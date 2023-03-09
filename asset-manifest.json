@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2023/static/css/main.245d627f.css",
-    "main.js": "/portfolio2023/static/js/main.c5953bd0.js",
+    "main.js": "/portfolio2023/static/js/main.ff253a4d.js",
     "static/js/787.a2cb61a6.chunk.js": "/portfolio2023/static/js/787.a2cb61a6.chunk.js",
     "static/media/postgresql.png": "/portfolio2023/static/media/postgresql.f8fb57c403b4dabf2f04.png",
     "static/media/Donald Yeh resume - April.pdf": "/portfolio2023/static/media/Donald Yeh resume - April.6c2a7c4dfe3319a1f91e.pdf",
@@ -43,11 +43,11 @@
     "static/media/icons8-jira-480.png": "/portfolio2023/static/media/icons8-jira-480.41f43f0a54572f715426.png",
     "index.html": "/portfolio2023/index.html",
     "main.245d627f.css.map": "/portfolio2023/static/css/main.245d627f.css.map",
-    "main.c5953bd0.js.map": "/portfolio2023/static/js/main.c5953bd0.js.map",
+    "main.ff253a4d.js.map": "/portfolio2023/static/js/main.ff253a4d.js.map",
     "787.a2cb61a6.chunk.js.map": "/portfolio2023/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.245d627f.css",
-    "static/js/main.c5953bd0.js"
+    "static/js/main.ff253a4d.js"
   ]
 }
