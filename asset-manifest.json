@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio2023/static/css/main.245d627f.css",
-    "main.js": "/portfolio2023/static/js/main.ff253a4d.js",
+    "main.js": "/portfolio2023/static/js/main.e6d887e2.js",
     "static/js/787.a2cb61a6.chunk.js": "/portfolio2023/static/js/787.a2cb61a6.chunk.js",
+    "static/media/newMovieGIFedited.gif": "/portfolio2023/static/media/newMovieGIFedited.712a6ead0a95b9dd63d3.gif",
+    "static/media/donaldyehportoflioheader1.png": "/portfolio2023/static/media/donaldyehportoflioheader1.672b55157a82bfbd0f3a.png",
     "static/media/postgresql.png": "/portfolio2023/static/media/postgresql.f8fb57c403b4dabf2f04.png",
     "static/media/Donald Yeh resume - April.pdf": "/portfolio2023/static/media/Donald Yeh resume - April.6c2a7c4dfe3319a1f91e.pdf",
     "static/media/jasmine.png": "/portfolio2023/static/media/jasmine.74f9ad25631cc6735e58.png",
@@ -34,6 +36,7 @@
     "static/media/bootstrap.png": "/portfolio2023/static/media/bootstrap.d40f8488227a8c769940.png",
     "static/media/redux.png": "/portfolio2023/static/media/redux.7fec6369cecd1cbd44d6.png",
     "static/media/oracle.png": "/portfolio2023/static/media/oracle.ef6c3dad96a3e230540b.png",
+    "static/media/tetris-game-retro-arcade-512.png": "/portfolio2023/static/media/tetris-game-retro-arcade-512.f1741782c4bd28d2c0e0.png",
     "static/media/gitlab.png": "/portfolio2023/static/media/gitlab.e2e467c88470f09ec0a4.png",
     "static/media/typescript.png": "/portfolio2023/static/media/typescript.8fe41361dff57e3f6c2e.png",
     "static/media/express.png": "/portfolio2023/static/media/express.f957c84f20bbeb8050b1.png",
@@ -43,11 +46,11 @@
     "static/media/icons8-jira-480.png": "/portfolio2023/static/media/icons8-jira-480.41f43f0a54572f715426.png",
     "index.html": "/portfolio2023/index.html",
     "main.245d627f.css.map": "/portfolio2023/static/css/main.245d627f.css.map",
-    "main.ff253a4d.js.map": "/portfolio2023/static/js/main.ff253a4d.js.map",
+    "main.e6d887e2.js.map": "/portfolio2023/static/js/main.e6d887e2.js.map",
     "787.a2cb61a6.chunk.js.map": "/portfolio2023/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.245d627f.css",
-    "static/js/main.ff253a4d.js"
+    "static/js/main.e6d887e2.js"
   ]
 }
