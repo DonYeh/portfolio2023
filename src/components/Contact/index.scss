@@ -1,0 +1,109 @@
+.contact-page{
+
+    .text-zone {
+        background: rgba(245,245,245,.4);
+        margin: 8% 8%;
+        padding: 7%;
+    
+    padding: 8%;
+
+    p {
+        font-style: 13px;
+        color: black;
+        font-family: roboto;
+        font-weight: 300;
+        min-width: fit-content;
+        animation: fadeIn 1.2s 5s;
+        animation-fill-mode: forwards;
+        opacity: 0; 
+        margin-bottom: 20px;
+
+    }
+
+    .contact-form {
+        width: 100%;
+        margin-top: 20px;
+
+        ul {
+            padding: 0;
+            margin: 0;
+
+            li {
+                padding: 0;
+                margin: 0;
+                list-style: none;
+                margin-bottom: 10px;
+                overflow: hidden;
+                display: block;
+                position: relative;
+                opacity: 0;
+                animation: fadeInUp 1.2s 1.8s;
+                animation-fill-mode: forwards;
+                clear: both;
+
+                &:nth-of-type(5) {
+                margin: 0;
+                color: #333;
+            }
+
+            }
+
+            li.half {
+                width: 49%;
+                margin-left: 2%;
+                float: left;
+                clear: none;
+
+                &:first-child {
+                    margin-left: 0;
+                }
+            }
+        }
+
+        input[type='text'],
+        input[type='email']{
+            width: 100%;
+            border: 0;
+            background: white;
+            height: 50px;
+            font-size: 16px;
+            color: black;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+        
+        textarea{
+            margin: 0;
+            width: 100%;
+            border: 0;
+            background: white;
+            height: 50px;
+            font-size: 16px;
+            color: black;
+            padding: 20px;
+            min-height: 150px;
+            box-sizing: border-box;
+        }
+
+        .flat-button {
+            color: black;
+            background: 0 0;
+            font: 13px;
+            letter-spacing: 3px;
+            text-decoration: none;
+            padding: 10px;
+            margin-top: 5px;
+            border: 3px solid #ffd700;
+            float: right;
+            border-radius: 4px;
+            animation: bounceIn 1.2s 2.8s backwards;
+
+
+            &:hover {
+                background: #ffd700;
+                color: #333;
+            }
+        }
+    }
+}
+}

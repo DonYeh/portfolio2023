@@ -1,0 +1,27 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio2023/projects/donaldyehportoflioheader1.png",
+
+            "title": "Portfolio v1.0",
+            "description": "React, Material-UI, Node, Express, Nodemailer",
+            "url": "https://github.com/DonYeh/Portfolio-2020-full-stack"
+        },
+        {
+            "cover": "/portfolio2023/projects/tetris-game-retro-arcade-512.png",
+
+            "title": "Chatris",
+            "description": "React Native, PostgreSQL, Node, Express, Socket.io",
+            "url": "https://github.com/A-DiRusso/Chatris"
+        },
+        {
+            "cover": "/portfolio2023/projects/newMovieGIFedited.gif",
+
+            "title": "Movie Explorer",
+            "description": "Javascript, HTML, CSS",
+            "url": "https://github.com/benhall847/movie-explorer"
+        }
+
+    ]
+}
+

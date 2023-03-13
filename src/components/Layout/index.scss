@@ -1,0 +1,79 @@
+@import '../../styles/variables.scss';
+
+.container {
+    margin:0;
+    padding:0;
+
+    p {
+        margin-top: 20px;
+    }
+
+    h2 {
+        opacity: 0;
+    }
+
+}
+
+.container.about-page, 
+.container.contact-page,
+.container.portfolio-page,
+.container.experience-page {
+
+    // padding: 0;
+
+        h1 {
+            font-size: 3rem;
+            font-family: 'Coolvetica';
+            color: $dark;
+            font-weight: 400;
+            padding: 0;
+            margin-top: 0;
+            position: relative;
+            text-align: center;
+            // margin-bottom: 40px;
+        }
+
+        p {
+            font-style: 13px;
+            opacity: 0;
+            font-family: roboto;
+            font-weight: 300;
+            min-width: fit-content;
+            animation: pulse 1s;
+
+            &:nth-of-type(1){
+                animation-delay: 1.5s;
+            }
+            &:nth-of-type(2){
+                animation-delay: 1.6s;
+            }
+            &:nth-of-type(3){
+                animation-delay: 1.7s;
+            }
+            
+    
+        }
+
+        .text-zone {
+            color: $dark;
+            // display: flex;
+            // align-content: center;
+            // left: 10%;
+            // top: 50%;
+            // transform: translateY(-50%);
+            // width: 100%;
+            // vertical-align: middle;
+            // display: table-cell;
+            // max-height: 90%;
+        }
+
+    }
+    
+    .text-animate-hover {
+        &:hover {
+            color: green;
+            // color: purple;
+        }
+    
+    }
+

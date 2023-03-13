@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap');
+
+
+// $Poppins: 'Poppins', sans-serif; 
+$Roboto: 'Roboto', 'sans-serif';
+
+// colors
+$dark: rgb(29,29,29);
+$light: #fff;
+$primary: rgb(162,162,246);
+$bg: rgb(244,244,255);
+
+
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+
+//border radius
+$borderRadius: 12px;
+
+// header height:
+$headerHeight: 100px;
+
+@mixin breakpoint($point) {
+    @if $point == xs {
+        // 400px
+        @media (min-width: 25em){
+            @content;
+        }
+    }
+    @if $point == sm {
+        // 544px
+        @media (min-width: 34em){
+            @content;
+        }
+    }
+    @if $point == md {
+        // 768px
+        @media (min-width: 48em){
+            @content;
+        }
+    }
+    @if $point == lg {
+        // 960px
+        @media (min-width: 48em){
+            @content;
+        }
+    }
+    @if $point == xl {
+        // 1280px
+        @media (min-width: 48em){
+            @content;
+        }
+    }
+}
+
+
+
+// @mixin for-size($size) {
+//     @if $size == phone-only {
+//       @media (max-width: 599px) { @content; }
+//     } @else if $size == tablet-portrait-up {
+//       @media (min-width: 600px) { @content; }
+//     } @else if $size == tablet-landscape-up {
+//       @media (min-width: 900px) { @content; }
+//     } @else if $size == desktop-up {
+//       @media (min-width: 1200px) { @content; }
+//     } @else if $size == big-desktop-up {
+//       @media (min-width: 1800px) { @content; }
+//     }
+//   }
+
+
+
+
+//   sm = 480px;
+//   md= 720px
+//   lg = 960px
+//   xl=1200
+
+//   $breakpoints:  (
+//     "xs": 25em, // 400px
+//     "sm": 34em, // 544px
+//     "md": 48em, // 768px
+//     "lg": 60em, // 960px
+//     "xl": 80em, // 1280px
+//     "xxl": 90em // 1440px
+//   );
+   
+//   @mixin respond-above($breakpoint) {
+//     // If the breakpoint exists in the map.
+//     @if map-has-key($breakpoints, $breakpoint) {
+//       // Get the breakpoint value.
+//       $breakpoint-value: map-get($breakpoints, $breakpoint);
+//       // Write the media query.
+//       @media (min-width: $breakpoint-value) {
+//         @content;
+//       }
+//       // If the breakpoint doesn't exist in the map.
+//     }
+//     @else {
+//       // Log a warning.
+//       @warn 'Invalid breakpoint: #{$breakpoint}.';
+//     }
+//   }
