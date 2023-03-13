@@ -10,7 +10,6 @@
 
     flex-direction: column;
     font-family: Roboto;
-    //   background: #1c1d1f;
     background: white;
     color: white;
     margin: 0;
@@ -23,21 +22,12 @@
         color: black;
     }
 
-    // p {
-    //     margin: 0;
-    // }
-
     .experience-box {
         opacity:0;
         animation: fadeIn 1.2s 1.3s;
         animation-fill-mode: forwards;
         padding: 0 5% 2%;
-        // @include breakpoint(md){
-        //     padding: 0;
-        //     background: purple;
-        // }
     
-
         p {
             display: flex;
             margin: 0;
@@ -47,22 +37,15 @@
             padding: 0 8px;
             text-align: center;
             align-items: center;
-            // background: purple;
         }
 
     }
 
     .react-tabs {
     display: flex;
-    // margin-left: 24px;
     width: 100%;
-    //   width: 470px;
-    // height: 500px;
-    //   border: 1px solid #3c3e43;
     color: black;
-    //   color: white;
     background: whitesmoke;
-    //   background: #1c1d1f;
     border-radius: 4px;
     }
 
@@ -74,19 +57,6 @@
     padding: 0;
     color: black;
     background: lightgrey;
-    //   background: #3c3e43;
-
-    // p {
-    //     display: flex;
-    //     margin: 0;
-    //     opacity: 1;
-    //     color: black;
-    //     font-weight: 400;
-    //     padding: 0 8px;
-    //     text-align: center;
-    //     align-items: center;
-    //     // background: purple;
-    // }
 
     h3{
         background: blue;
@@ -108,48 +78,22 @@
     .react-tabs__tab--selected {
     align-items: center;
     background: whitesmoke;
-    //   background: white;
-    //   background: #1c1d1f;
-    //   border-color: #1c1d1f;
     border-left: 4px solid #ffd700;
-    // border-left: 4px solid #6eb800;
     color: white;
     outline: none;
-    // scrollbar-color: red green; 
-    
-    
     }
 
     .react-tabs__tab-panel--selected {
     display: block;
-    // justify-content: center;
-    }
-
-    // .react-tabs__tab {
-    // padding-left: 24px;
-    // }
-
-    .react-tabs__tab--selected {
-    // padding-left: 21px;
     }
 
     .panel-content {
 
     display: flex;
     flex-direction: column;
-    // background: red;
     padding: 15px;
     height: 500px;
-    overflow: auto;
-    // scrollbar-color: red green; 
-
-    // div {
-    //     display: flex;
-    //     justify-content: space-between;
-    //     padding: 0px 10px;
-    //     flex-wrap: wrap;
-    // }
-
+    overflow: auto; 
 
     //TODO: remove padding when below md size
     // @include breakpoint(md){
@@ -159,88 +103,46 @@
 
     .selected-title-date {
         padding: 3px 6px 10px;
-
-        // background: purple;
     }
 
     box {
-        // background: purple;
-        // padding-top: 10px;
         padding: 3px 10px 0px;
         display: flex;
-        // align-items: ;
         justify-content: space-between;
         color: black;
     }
 
     p {
-        // padding-top: 10px;
-        // background: purple;
         margin-top: 5px;
         color: rgba(0,0,0,.8);
     }
 
     ul{
-        // background: purple;
         padding-top: 5px;
-        // padding: 0 8px;
     }
 
     li {
         padding-top: 5px;
     }
 
-    // scrollbar-color: purple red;
-
     }
     
     h3 {
-        // background: yellow;
         color: black;
-        // padding: 5px 10px;
         padding: 10px 0px;
         width: 100%;
 
     }
 
-    h4 {
-        // padding-top: 10px;
-    }
-
     .technologies-tools-container {
-        // background: purple;
-        // background: linear-gradient(to right,rgba(211,211,211,.5), rgba(255,255,255,1));
-        // background: rgba(211,211,211,.5);
-        // background: linear-gradient(135deg,lightgrey, #fff);
-        // padding-bottom: 10%;
-        // padding-right: 3%;
         padding: 0 5% 10%;
         width: 100%;
         opacity:0;
-        // animation: fadeIn 1s;
         animation: bounceIn .5s 1.7s;
         animation-fill-mode: forwards;
 
-        // &:nth-of-type(2){
-        //     animation-delay: 2.5s;
-        //     opacity: 0;
-        //     // animation-fill-mode: forwards;
-
-        // }
-        // &:nth-of-type(3){
-        //     animation-delay: 2.6s;
-        //             // animation-fill-mode: forwards;
-
-        // }
-        // &:nth-of-type(4){
-        //     animation-delay: 2.7s;
-        //     // animation-fill-mode: forwards;
-
-        // }
-
         .tandtpaper {
             background: rgba(245,245,245,.4);
-            // background: whitesmoke;
             padding: 2% 1%;
         }
 
@@ -254,52 +156,21 @@
         }
 
         h3 {
-        padding-top: 20px; 
-        // &:nth-of-type(1){
-        //     animation-delay: 2.5s;
-        //     // opacity: 1;
-        //     animation-fill-mode: forwards;
-
-        // }
-        // &:nth-of-type(2){
-        //     animation-delay: 2.6s;
-        //     animation-fill-mode: forwards;
-
-        // }
-        // &:nth-of-type(3){
-        //     animation-delay: 2.7s;
-        //     animation-fill-mode: forwards;
-
-        // }       
+        padding-top: 20px;    
         }
 
         h4 {
             color: black;
             padding: 2% 3%;
-            // padding: 2% 1%;
-            // padding-bottom: 15px;
             width: 100%;
-            // &:first-child {
-            //     background: orange;
-            // }
         }
-
-        
 
         .front-end-box, .back-end-box, .tools-box {
-            // background: orange;
             margin-bottom: 15px;
             width: auto;
-            // margin-left: auto;
             justify-content: center;
-            
-
         }
 
-
-
     }
-
-
 
 }

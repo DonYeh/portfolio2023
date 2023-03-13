@@ -68,11 +68,8 @@ const Header = () => {
                         <NavLink to="../contact" onClick={menuToggleHandler} activeclassname='active' className='contact-link' >Contact</NavLink>
                     </li>
                 </ul>
-                <NavLink className="button" to="../projects/donaldYehResumeMarch2023.pdf" target="_blank" download="Donald Yeh - Resume">My Resume</NavLink>
-                {/* <button onClick={ctaClickHandler} >My Resume</button> */}
-                
+                <NavLink className="button" to="../projects/donaldYehResumeMarch2023.pdf" target="_blank" download="Donald Yeh - Resume">My Resume</NavLink>                
             </nav>
-            {/* src/assets/images/Donald Yeh resume - April.pdf */}
         <div className='header__content__toggle'>
             {!menuOpen ? <BiMenuAltRight onClick={menuToggleHandler}/> : <AiOutlineClose onClick={menuToggleHandler}/> }
         </div>

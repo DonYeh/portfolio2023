@@ -1,41 +1,27 @@
 .container {
     justify-content: flex-start;
-    // background: purple;
 }
 
 .portfolio-page {
     flex-direction: column;
-    // align-items: center;
-    // padding-left: 100px;
-    // padding-right: 50px;
-    // width: calc(100% - 150px);
     height: 100%;
     position: initial;
     overflow: auto;
-    // position: absolute;
     padding: 0 10% 40px;
     opacity: 1;
 
    
 
     h1.page-title {
-        // margin-left: 100px;
-        // margin-top: 200px;
         justify-content: center;
         align-items: center;
-        // margin-top: 100px;
         padding: 10%;
         text-align: center;
     }
 
     .images-container {
-        // display: flex;        
         justify-content: space-evenly;
-        // justify-content: center;
         gap: 20px;
-        // flex-wrap: wrap;
-        // padding-bottom: 100px;
-        // position: relative;
     }
 
     .portfolio-card {
@@ -49,7 +35,6 @@
         animation: fadeIn 1.3s 1.6s;
         animation-fill-mode: forwards;
 
-        // max-width: calc(30% - 10px);
 
         .portfolio-image {
             position: relative;
@@ -66,7 +51,6 @@
             position: absolute;
             width: 100%;
             height: calc(100% + 70px);
-            // top: 0;
             z-index: 3;
             padding: 10px 20px;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
@@ -75,12 +59,10 @@
                 rgba(0,0,0, 0.1)0, 
                 rgba(0,0,0,1)
             );
-            // border-radius: 10px;
             bottom: -70px;
 
             p {
                 opacity: 1;
-                // background: purple;
                 padding-bottom: 5px;
             }
 
@@ -109,7 +91,6 @@
             margin-bottom: 10px;
             height:40px;
             width: 80px;
-            // padding: 0 23px;
             line-height: 34px;
             border: 2px solid #ffd700;
             border-radius: 4px;
@@ -120,7 +101,6 @@
             font-weight: 700;
             transition: all cubic-bezier(0.645, 0.045, 0.355, 1);
             cursor: pointer;
-            // z-index: 3;
         }
 
         .btn:hover {

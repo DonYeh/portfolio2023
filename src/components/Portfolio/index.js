@@ -5,7 +5,6 @@ import './index.scss';
 import Stack from '@mui/material/Stack'
 import { createTheme, ThemeProvider } from '@mui/material'
   
-// import Grid2 from '@mui/material/Unstable_Grid2';
 const Portfolio = () => {
 
   const [letterClass, setLetterClass] = useState('text-animate')
@@ -14,9 +13,7 @@ const Portfolio = () => {
   let theme = createTheme()
 
     const sxPropCSS = {
-      // backgroundColor: 'lightgreen',
         [theme.breakpoints.down('sm')]: {
-          // backgroundColor: 'orange',
           padding: '0 25px',
         },
     }

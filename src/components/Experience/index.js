@@ -1,18 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
-// import Tabs from '@mui/material/Tabs';
-// import Tab from '@mui/material/Tab';
 import './index.scss'
 import {
     AWS, Android, Angular, Bitbucket, Bootstrap, CSS3, Express, Git, Github, Gitlab, Graphql, HTML, IntelliJ, Jasmine, Java, Javascript, Jenkins, Jira, MaterialUI, Mocha, MongoDB, MySQL, NGINX, NodeJS, NPM, Oracle, Postgresql, Postman, Python, ReactJS, ReactNative, Redux, SASS, Sonar, Swagger, Tailwind, TeamCity, Typescript, VScode
     } from '../../assets/images/index';
-// import HTML from '../../assets/images/languageIcons/html5.png';
-// import aws from '../../assets/images/languageIcons/amazonwebservices.png';
 import { styled } from '@mui/material/styles';
-
 import Box from '@mui/material/Box'
-import Container from '@mui/material/Container'
 import Grid2 from '@mui/material/Unstable_Grid2'; // Grid version 2
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
@@ -39,58 +33,23 @@ const Experience = () => {
     let theme = createTheme()
 
     const sxPropCSS = {
-        // backgroundColor: 'lightgreen',
-          [theme.breakpoints.up('xs')]: {
-            // backgroundColor: 'green',
+        [theme.breakpoints.up('xs')]: {
             padding: 0,
             fontSize: '.92rem',
-            // width: 'fit-content',
-            // width: 'auto',
             "box": {
-                // background: 'yellow',
                 flexDirection: 'column'
-                // padding: 
             },
             ".selected-title-date": {
-                // backgroundColor: 'purple',
                 padding: 0,
-                // fontSize: '.92rem',
                 h3: {
                     padding: '4px 0',
                 }
             },
-            ".experience-box": {
-                // padding: '0 1% 1%',
-            },
-
             ".panel-content box": {
-                // backgroundColor: 'orange',
                 padding: 0,
             },
-            ".panel-content ul": {
-                // backgroundColor: 'yellow',
-                // padding: 0,
-                // fontSize: '.92rem',
-            },
           },
-        //   [theme.breakpoints.up('sm')]: {
-        //     backgroundColor: 'orange',
-        //     // padding: '0 25px',
-        //   },
-        //   [theme.breakpoints.up('md')]: {
-        //     backgroundColor: 'purple',
-        //     // padding: '0 25px',
-        //   },
-        //   [theme.breakpoints.up('lg')]: {
-        //     backgroundColor: 'red',
-        //     // padding: '0 25px',
-        //   },
-        //   [theme.breakpoints.up('xl')]: {
-        //     backgroundColor: 'blue',
-        //     // padding: '0 25px',
-        //   },
-
-      }
+    }
 
 
     useEffect(() => {

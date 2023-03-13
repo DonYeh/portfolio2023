@@ -19,7 +19,6 @@
 .container.portfolio-page,
 .container.experience-page {
 
-    // padding: 0;
 
         h1 {
             font-size: 3rem;
@@ -30,7 +29,6 @@
             margin-top: 0;
             position: relative;
             text-align: center;
-            // margin-bottom: 40px;
         }
 
         p {
@@ -56,15 +54,6 @@
 
         .text-zone {
             color: $dark;
-            // display: flex;
-            // align-content: center;
-            // left: 10%;
-            // top: 50%;
-            // transform: translateY(-50%);
-            // width: 100%;
-            // vertical-align: middle;
-            // display: table-cell;
-            // max-height: 90%;
         }
 
     }
@@ -72,7 +61,6 @@
     .text-animate-hover {
         &:hover {
             color: green;
-            // color: purple;
         }
     
     }
